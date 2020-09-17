@@ -46,7 +46,7 @@ SPAWN_RULES.defaults.archetypes = {
     'tw': {
         x: ()=>random(0,WIDTH-1),
         y: (b)=>b.hemY(random(HEIGHT*0.7,HEIGHT*0.9)),
-        pressure: [1000, 1020],
+        pressure: [1010, 1020],
         windSpeed: [15, 35],
         type: TROPWAVE,
         organization: [0,0.3],
@@ -74,10 +74,10 @@ SPAWN_RULES.defaults.archetypes = {
     'x': {
         inherit: 'ex',
         pressure: 1005,
-        windSpeed: 15
+        windSpeed: 30
     },
     'tc': {
-        pressure: 1005,
+        pressure: 1010,
         windSpeed: 25,
         type: TROP,
         organization: 1,
@@ -99,7 +99,7 @@ SPAWN_RULES.defaults.archetypes = {
     },
     's': {
         inherit: 'tc',
-        pressure: 995,
+        pressure: 1005,
         windSpeed: 45
     },
     'S': {
@@ -110,7 +110,7 @@ SPAWN_RULES.defaults.archetypes = {
     '1': {
         inherit: 'tc',
         pressure: 985,
-        windSpeed: 70
+        windSpeed: 75
     },
     '2': {
         inherit: 'tc',
@@ -135,7 +135,7 @@ SPAWN_RULES.defaults.archetypes = {
     '6': {
         inherit: 'tc',
         pressure: 890,
-        windSpeed: 170
+        windSpeed: 155
     },
     '7': {
         inherit: 'tc',
